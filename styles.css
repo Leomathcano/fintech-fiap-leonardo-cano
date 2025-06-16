@@ -1,0 +1,109 @@
+body {
+    background-color: #f8f9fa;
+    padding: px;
+}
+
+.container > i.fa-arrow-left,
+.container > i.fa-gear {
+    font-size: 35px;
+    color: #212529;
+    margin: 10px;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.container > i:hover {
+    transform: scale(1.2);
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.5rem;
+    color: #3e4d3a;
+}
+
+.container-options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.option {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 25px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+}
+
+.option:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.option i {
+    font-size: 35px;
+    display: block;
+    margin-bottom: 12px;
+    transition: transform 0.2s ease;
+}
+
+.option:hover i {
+    transform: scale(1.2);
+}
+
+.option span {
+    font-size: 1.4rem;
+    color: #212529;
+}
+
+.icon-transferir {
+    color: #0d6efd;
+}
+
+.icon-copia-cola {
+    color: #6f42c1;
+}
+
+.icon-programar {
+    color: #fd7e14;
+}
+
+.icon-qr-code {
+    color: #20c997;
+}
+
+.icon-depositar {
+    color: #ffc107;
+}
+
+.icon-cobrar {
+    color: #dc3545;
+}
+
+.icon-chave {
+    color: #0dcaf0;
+}
+
+.icon-temporaria {
+    color: #6610f2;
+}
+
+.icon-limites {
+    color: #6c757d;
+}
+
+.options-bottom {
+    margin-top: 40px;
+}
+
+.options-bottom-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #212529;
+}
